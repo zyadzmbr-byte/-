@@ -248,7 +248,7 @@ const pages = {
                         </ul>
                     </div>
                     <div>
-                        <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800" alt="تزريع الأشاير" class="service-image">
+                        <img src="images/bg2.jpg" alt="تزريع الأشاير" class="service-image">
                     </div>
                 </div>
             </div >
@@ -284,7 +284,7 @@ const pages = {
                         </ul>
                     </div>
                     <div>
-                        <img src="https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=800" alt="تركيب الشفاطات" class="service-image">
+                        <img src="images/bg1.jpg" alt="تركيب الشفاطات" class="service-image">
                     </div>
                 </div>
             </div >
