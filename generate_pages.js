@@ -126,9 +126,9 @@ function getLayout(title, content) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${title}</title>
     <!-- Favicon (أيقونة الموقع) -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png?v=1789472759">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png?v=1789472759">
+    <link rel="apple-touch-icon" href="images/favicon.png?v=1789472759">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -188,7 +188,7 @@ const pages = {
                         </ul>
                     </div>
                     <div>
-                        <img src="images/core_drilling.png" alt="آلة الكور" class="service-image">
+                        <img src="images/core_drilling.png?v=1789472759" alt="آلة الكور" class="service-image">
                     </div>
                 </div>
             </div >
@@ -218,7 +218,7 @@ const pages = {
                         </ul>
                     </div>
                     <div>
-                        <img src="images/concrete_saw.png" alt="المنشار الخرساني" class="service-image">
+                        <img src="images/concrete_saw.png?v=1789472759" alt="المنشار الخرساني" class="service-image">
                     </div>
                 </div>
             </div >
@@ -248,7 +248,7 @@ const pages = {
                         </ul>
                     </div>
                     <div>
-                        <img src="images/bg2.jpg" alt="تزريع الأشاير" class="service-image">
+                        <img src="images/bg2.jpg?v=1789472759" alt="تزريع الأشاير" class="service-image">
                     </div>
                 </div>
             </div >
@@ -284,7 +284,7 @@ const pages = {
                         </ul>
                     </div>
                     <div>
-                        <img src="images/bg1.jpg" alt="تركيب الشفاطات" class="service-image">
+                        <img src="images/bg1.jpg?v=1789472759" alt="تركيب الشفاطات" class="service-image">
                     </div>
                 </div>
             </div >
