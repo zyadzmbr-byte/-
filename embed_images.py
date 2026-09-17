@@ -18,18 +18,29 @@ bg2_b64 = get_base64_image(os.path.join(images_dir, "bg2.jpg"))
 core_drilling_b64 = get_base64_image(os.path.join(images_dir, "core_drilling.png"))
 concrete_saw_b64 = get_base64_image(os.path.join(images_dir, "concrete_saw.png"))
 
+tan1_b64 = get_base64_image(os.path.join(images_dir, "tan 1.jpg"))
+tan21_b64 = get_base64_image(os.path.join(images_dir, "tan 2.1.jpg"))
+tan22_b64 = get_base64_image(os.path.join(images_dir, "tan 2.2.jpg"))
+tan3_b64 = get_base64_image(os.path.join(images_dir, "tan 3.jpg"))
+tan4_b64 = get_base64_image(os.path.join(images_dir, "tan 4.jpg"))
+
 def replace_with_b64(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Replace bg1.jpg
+    # Replace original images
     content = re.sub(r'images/bg1\.jpg', bg1_b64, content)
-    # Replace bg2.jpg
     content = re.sub(r'images/bg2\.jpg', bg2_b64, content)
-    # Replace core_drilling.png
     content = re.sub(r'images/core_drilling\.png', core_drilling_b64, content)
-    # Replace concrete_saw.png
     content = re.sub(r'images/concrete_saw\.png', concrete_saw_b64, content)
+
+    # Replace tan images (handle spaces in regex properly or just use strings)
+    # Since re.sub interprets strings, spaces are just spaces, but dots must be escaped
+    content = re.sub(r'images/tan 1\.jpg', tan1_b64, content)
+    content = re.sub(r'images/tan 2\.1\.jpg', tan21_b64, content)
+    content = re.sub(r'images/tan 2\.2\.jpg', tan22_b64, content)
+    content = re.sub(r'images/tan 3\.jpg', tan3_b64, content)
+    content = re.sub(r'images/tan 4\.jpg', tan4_b64, content)
 
     # Force style.css reload if it's an HTML file
     if filepath.endswith('.html'):
